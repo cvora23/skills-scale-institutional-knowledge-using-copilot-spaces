@@ -10,6 +10,7 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 
 ## Workflows
 - Use the project board (e.g., GitHub Projects) with columns: Backlog, Ready, In Progress, In Review, QA, Done
+  - The **QA** column is owned by the QA Lead; items in this column require QA sign-off before moving to Done.
 - Pull Request workflow:
   - Small PRs (<= 400 lines when possible)
   - Include issue link and acceptance criteria in PR description
@@ -21,7 +22,8 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Integration tests where applicable
 - End-to-end smoke tests for critical flows before release
 - Security scanning in CI
-- Manual QA for feature acceptance when needed
+- Manual QA for feature acceptance — coordinated by the QA Lead using the test plan
+- QA Lead signs off on quality gates before each release; see the [Cross-Functional Handoff Checklist](./octoacme-cross-functional-handoff-checklist.md) for QA→Release handoff steps
 
 ## Reporting & Metrics
 - Track velocity and burndown

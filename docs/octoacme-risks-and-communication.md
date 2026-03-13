@@ -38,5 +38,8 @@ Incident Communication
 - Post-incident blameless retrospective scheduled
 
 ## Escalation Paths
-- Team-level -> PM -> Product Lead -> Sponsor
+- Team-level → PM → Product Lead (PdM) → Stakeholder / Executive Sponsor
+- The Stakeholder / Executive Sponsor is the final escalation tier for business-impacting blockers and go/no-go decisions.
 - For security incidents, follow the security incident runbook and notify Security on-call
+
+> See [`octoacme-roles-and-personas.md`](./octoacme-roles-and-personas.md) for a full description of the Stakeholder / Executive Sponsor role and interaction points.
